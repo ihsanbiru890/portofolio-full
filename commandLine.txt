@@ -1,0 +1,5 @@
+cek npm:                npm -v
+cek node:               node -v
+bikin project baru:     npm create vite@latest namaproject
+install dependency:     npm install
+jalankan project:       npm run dev
