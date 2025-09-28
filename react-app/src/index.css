@@ -1,3 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --primary-color: #6d28d9;
+    --secondary-color: #4c1d95;
+    --bg-color: #0f172a;
+}
+
+#slideshow {
+    transition: opacity 0.6s ease-in-out;
+    transform: translate(-50%, -1%);
+    /* base fix center */
+}
+
+.rgb-glitch {
+    animation: rgbGlitch 10s infinite;
+}
+
+@keyframes rgbGlitch {
+    0% {
+        filter: none;
+        transform: translate(-50%, -1%);
+    }
+
+    20% {
+        filter: drop-shadow(-2px 0 red) drop-shadow(2px 0 cyan);
+        transform: translate(-50%, -1%);
+    }
+
+    40% {
+        filter: drop-shadow(-4px 0 red) drop-shadow(4px 0 cyan);
+        transform: translate(-50%, -1%) skew(3deg);
+    }
+
+    60% {
+        filter: drop-shadow(-1px 0 red) drop-shadow(1px 0 cyan);
+        transform: translate(-50%, -1%) skew(-3deg);
+    }
+
+    80% {
+        filter: none;
+        transform: translate(-50%, -1%) translate(2px, -2px);
+    }
+
+    100% {
+        filter: none;
+        transform: translate(-50%, -1%);
+    }
+}

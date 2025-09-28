@@ -1,7 +1,13 @@
-// src/App.jsx
+import Navbar from './pages/navbar'
+import Foto from './pages/foto'
+
 function App() {
   return (
-    <h1>Hallo Ihsan Biru 🚀</h1>
+    <div>
+      <h1>Hallo Ihsan Biru 🚀</h1>
+      <Navbar />
+      <Foto />
+    </div>
   )
 }
 
