@@ -3,9 +3,16 @@
 @tailwind utilities;
 
 :root {
-    --primary-color: #6d28d9;
-    --secondary-color: #4c1d95;
-    --bg-color: #0f172a;
+    --primary-color: #1D1616;
+    --secondary-color: #8E1616;
+    --tertiary-color: #D84040;
+    --accent-color: #EEEEEE;
+    --bg-color: #481E14;
+
+    /* button contact */
+    --gradient-from: #ec4899;
+    --gradient-via: #ef4444;
+    --gradient-to: #f59e0b;
 }
 
 #slideshow {

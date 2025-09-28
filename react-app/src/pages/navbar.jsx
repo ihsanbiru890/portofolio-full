@@ -4,7 +4,7 @@ function Navbar() {
     return (
         <nav
         className="fixed z-50 bottom-0 left-1/2 -translate-x-1/2 md:w-[80%] w-[98%] h-15 
-                    bg-[rgba(226,34,34,0.9)] backdrop-blur-md 
+                    bg-[rgba(255,255,255,0.1)] backdrop-blur-md 
                     text-white flex justify-around p-3 rounded-t-3xl 
                     shadow-[0_4px_30px_rgba(0,0,0,0.5)] border border-[rgba(255,255,255,0.2)]"
         >
